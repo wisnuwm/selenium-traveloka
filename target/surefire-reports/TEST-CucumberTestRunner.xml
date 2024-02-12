@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="CucumberTestRunner" time="212.294" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/test-classes:/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/classes:/Users/MacM1/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/MacM1/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/MacM1/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/MacM1/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/MacM1/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/MacM1/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/MacM1/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/MacM1/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/MacM1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.1/selenium-java-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.1/selenium-chrome-driver-4.8.1.jar:/Users/MacM1/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/MacM1/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/MacM1/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/MacM1/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/MacM1/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/MacM1/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/MacM1/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/MacM1/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/MacM1/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/MacM1/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.1/selenium-chromium-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.1/selenium-devtools-v109-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.1/selenium-devtools-v110-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.1/selenium-devtools-v85-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.1/selenium-edge-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.1/selenium-firefox-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/MacM1/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.1/selenium-ie-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/MacM1/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/MacM1/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/MacM1/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/MacM1/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/MacM1/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/MacM1/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/MacM1/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/MacM1/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/MacM1/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.1/selenium-safari-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/MacM1/.m2/repository/net/masterthought/cucumber-reporting/5.7.5/cucumber-reporting-5.7.5.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/MacM1/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/MacM1/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/MacM1/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/MacM1/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar:/Users/MacM1/.m2/repository/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.jar:/Users/MacM1/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/MacM1/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/MacM1/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/MacM1/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/MacM1/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/MacM1/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/MacM1/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/MacM1/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/MacM1/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/Users/MacM1/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/MacM1/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/MacM1/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/MacM1/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/MacM1/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/MacM1/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/MacM1/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/MacM1/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/MacM1/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/MacM1/.m2/repository/io/qameta/allure/allure-junit4/2.23.0/allure-junit4-2.23.0.jar:/Users/MacM1/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/MacM1/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Jakarta"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ID"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/surefire/surefirebooter-20230722210611542_3.jar /Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/surefire 2023-07-22T21-06-11_439-jvmRun1 surefire-20230722210611542_1tmp surefire_0-20230722210611542_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/test-classes:/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/classes:/Users/MacM1/.m2/repository/io/cucumber/cucumber-java/7.11.1/cucumber-java-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-core/7.11.1/cucumber-core-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-gherkin/7.11.1/cucumber-gherkin-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.11.1/cucumber-gherkin-messages-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/gherkin/26.0.3/gherkin-26.0.3.jar:/Users/MacM1/.m2/repository/io/cucumber/messages/21.0.1/messages-21.0.1.jar:/Users/MacM1/.m2/repository/io/cucumber/tag-expressions/5.0.1/tag-expressions-5.0.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-expressions/16.1.2/cucumber-expressions-16.1.2.jar:/Users/MacM1/.m2/repository/io/cucumber/datatable/7.11.1/datatable-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-plugin/7.11.1/cucumber-plugin-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/docstring/7.11.1/docstring-7.11.1.jar:/Users/MacM1/.m2/repository/io/cucumber/html-formatter/20.2.1/html-formatter-20.2.1.jar:/Users/MacM1/.m2/repository/io/cucumber/junit-xml-formatter/0.1.0/junit-xml-formatter-0.1.0.jar:/Users/MacM1/.m2/repository/io/cucumber/ci-environment/9.1.0/ci-environment-9.1.0.jar:/Users/MacM1/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/MacM1/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/MacM1/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/MacM1/.m2/repository/io/cucumber/cucumber-junit/7.11.1/cucumber-junit-7.11.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-java/4.8.1/selenium-java-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-api/4.8.1/selenium-api-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.8.1/selenium-chrome-driver-4.8.1.jar:/Users/MacM1/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/MacM1/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/MacM1/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/MacM1/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/MacM1/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/MacM1/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/MacM1/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/MacM1/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/MacM1/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/MacM1/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.8.1/selenium-chromium-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-json/4.8.1/selenium-json-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v108/4.8.1/selenium-devtools-v108-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v109/4.8.1/selenium-devtools-v109-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v110/4.8.1/selenium-devtools-v110-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.8.1/selenium-devtools-v85-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.8.1/selenium-edge-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.8.1/selenium-firefox-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-http/4.8.1/selenium-http-4.8.1.jar:/Users/MacM1/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.8.1/selenium-ie-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.8.1/selenium-remote-driver-4.8.1.jar:/Users/MacM1/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/MacM1/.m2/repository/io/netty/netty-buffer/4.1.87.Final/netty-buffer-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-codec-http/4.1.87.Final/netty-codec-http-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-codec/4.1.87.Final/netty-codec-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-handler/4.1.87.Final/netty-handler-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-common/4.1.87.Final/netty-common-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.87.Final/netty-transport-classes-epoll-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.87.Final/netty-transport-classes-kqueue-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-epoll/4.1.87.Final/netty-transport-native-epoll-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.87.Final/netty-transport-native-kqueue-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.87.Final/netty-transport-native-unix-common-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport/4.1.87.Final/netty-transport-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-resolver/4.1.87.Final/netty-resolver-4.1.87.Final.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-api/1.22.0/opentelemetry-api-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-context/1.22.0/opentelemetry-context-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.22.0/opentelemetry-exporter-logging-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.22.0/opentelemetry-sdk-metrics-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.22.0-alpha/opentelemetry-sdk-logs-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.22.0-alpha/opentelemetry-api-logs-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.22.0/opentelemetry-sdk-common-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.22.0/opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.22.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.22.0/opentelemetry-sdk-trace-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.22.0/opentelemetry-sdk-1.22.0.jar:/Users/MacM1/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.22.0-alpha/opentelemetry-semconv-1.22.0-alpha.jar:/Users/MacM1/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/MacM1/.m2/repository/net/bytebuddy/byte-buddy/1.12.22/byte-buddy-1.12.22.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/MacM1/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/MacM1/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/MacM1/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/MacM1/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/MacM1/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/MacM1/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/MacM1/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.8.1/selenium-manager-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.8.1/selenium-safari-driver-4.8.1.jar:/Users/MacM1/.m2/repository/org/seleniumhq/selenium/selenium-support/4.8.1/selenium-support-4.8.1.jar:/Users/MacM1/.m2/repository/net/masterthought/cucumber-reporting/5.7.5/cucumber-reporting-5.7.5.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.2.2/jackson-databind-2.13.2.2.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.2/jackson-annotations-2.13.2.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.2/jackson-core-2.13.2.jar:/Users/MacM1/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.13.2/jackson-datatype-jsr310-2.13.2.jar:/Users/MacM1/.m2/repository/org/apache/velocity/velocity-engine-core/2.3/velocity-engine-core-2.3.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/MacM1/.m2/repository/joda-time/joda-time/2.12.2/joda-time-2.12.2.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/MacM1/.m2/repository/commons-io/commons-io/2.7/commons-io-2.7.jar:/Users/MacM1/.m2/repository/org/codehaus/plexus/plexus-utils/3.5.0/plexus-utils-3.5.0.jar:/Users/MacM1/.m2/repository/org/jsoup/jsoup/1.15.4/jsoup-1.15.4.jar:/Users/MacM1/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20220608.1/owasp-java-html-sanitizer-20220608.1.jar:/Users/MacM1/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/Users/MacM1/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/MacM1/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/MacM1/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/Users/MacM1/.m2/repository/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar:/Users/MacM1/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/Users/MacM1/.m2/repository/io/github/bonigarcia/webdrivermanager/5.3.2/webdrivermanager-5.3.2.jar:/Users/MacM1/.m2/repository/org/slf4j/slf4j-api/2.0.6/slf4j-api-2.0.6.jar:/Users/MacM1/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java/3.2.14/docker-java-3.2.14.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-core/3.2.14/docker-java-core-3.2.14.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-api/3.2.14/docker-java-api-3.2.14.jar:/Users/MacM1/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/MacM1/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.64/bcpkix-jdk15on-1.64.jar:/Users/MacM1/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.64/bcprov-jdk15on-1.64.jar:/Users/MacM1/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.2.14/docker-java-transport-httpclient5-3.2.14.jar:/Users/MacM1/.m2/repository/com/github/docker-java/docker-java-transport/3.2.14/docker-java-transport-3.2.14.jar:/Users/MacM1/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/MacM1/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/MacM1/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/MacM1/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/MacM1/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/MacM1/.m2/repository/io/qameta/allure/allure-junit4/2.23.0/allure-junit4-2.23.0.jar:/Users/MacM1/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/MacM1/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:"/>
+    <property name="allure.results.directory" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/MacM1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton/target/surefire/surefirebooter-20230722210611542_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="mac"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/MacM1/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/dz/38y4k9413mbbtsm37z1pglvc0000gn/T/"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="/Users/MacM1/Documents/Telecats/automation-mtt-skleton"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/MacM1/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="junit.jupiter.extensions.autodetection.enabled" value="true"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="As valid user i was able to Filter the products #1" classname="Dashboard products" time="25.141">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: As valid user i was able to Filter the products       &amp#27;[90m# src/test/resources/Features/Dashboard.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                               &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 40686
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:06:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="As valid user i was able to Filter the products #2" classname="Dashboard products" time="19.452">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: As valid user i was able to Filter the products       &amp#27;[90m# src/test/resources/Features/Dashboard.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (Z to A)"&amp#27;[0m                               &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (Z to A)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 21283
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:06:51 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="As valid user i was able to Filter the products #3" classname="Dashboard products" time="18.485">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: As valid user i was able to Filter the products       &amp#27;[90m# src/test/resources/Features/Dashboard.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (low to high)"&amp#27;[0m                         &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (low to high)"&amp#27;[0m                    &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 8003
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:07:11 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="As valid user i was able to Filter the products #4" classname="Dashboard products" time="18.268">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: As valid user i was able to Filter the products       &amp#27;[90m# src/test/resources/Features/Dashboard.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (high to low)"&amp#27;[0m                         &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (high to low)"&amp#27;[0m                    &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 45083
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:07:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="The default filter value was A to Z #1" classname="Dashboard products" time="19.379">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: The default filter value was A to Z                   &amp#27;[90m# src/test/resources/Features/Dashboard.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                                &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRefresh the page&amp#27;[0m                                                 &amp#27;[90m# StepDef.DashboardProductsStep.refreshThePage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 44880
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:07:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="The default filter value was A to Z #2" classname="Dashboard products" time="19.563">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: The default filter value was A to Z                   &amp#27;[90m# src/test/resources/Features/Dashboard.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (Z to A)"&amp#27;[0m                                &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRefresh the page&amp#27;[0m                                                 &amp#27;[90m# StepDef.DashboardProductsStep.refreshThePage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 30515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:08:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="The default filter value was A to Z #3" classname="Dashboard products" time="20.175">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: The default filter value was A to Z                   &amp#27;[90m# src/test/resources/Features/Dashboard.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (low to high)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRefresh the page&amp#27;[0m                                                 &amp#27;[90m# StepDef.DashboardProductsStep.refreshThePage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 35382
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:08:26 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="The default filter value was A to Z #4" classname="Dashboard products" time="19.909">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: The default filter value was A to Z                   &amp#27;[90m# src/test/resources/Features/Dashboard.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mFilter products to &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (high to low)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterProductsTo(java.lang.String)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mRefresh the page&amp#27;[0m                                                 &amp#27;[90m# StepDef.DashboardProductsStep.refreshThePage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe filter selected was &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m                          &amp#27;[90m# StepDef.DashboardProductsStep.filterWasSelected(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 4394
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:08:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="Login valid to saucedemo" classname="Login to saucedemo" time="16.981">
+    <system-out><![CDATA[
+@Test
+Scenario Outline: Login valid to saucedemo                              &amp#27;[90m# src/test/resources/Features/Login.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mLogin with username &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and password &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.loginWithEmailAndPassword(java.lang.String,java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 5399
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:09:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="Login with valid account" classname="Login to saucedemo" time="17.253">
+    <system-out><![CDATA[
+@Test
+Scenario: Login with valid account        &amp#27;[90m# src/test/resources/Features/Login.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mInput valid username&amp#27;[0m              &amp#27;[90m# StepDef.LoginStep.inputValidUsername()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mInput valid password&amp#27;[0m                &amp#27;[90m# StepDef.LoginStep.inputValidPassword()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick login button&amp#27;[0m                 &amp#27;[90m# StepDef.LoginStep.clickLoginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mShould redirected to product lists&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.shouldRedirectedToProductLists()&amp#27;[0m
+https://www.saucedemo.com/inventory.html
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mPath URL was &amp#27;[0m&amp#27;[32m&amp#27;[1m"/inventory.html"&amp#27;[0m      &amp#27;[90m# StepDef.LoginStep.pathURLWas(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 19614
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:09:23 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+  <testcase name="Login with unmatched username and password" classname="Login to saucedemo" time="15.239">
+    <system-out><![CDATA[
+@Test
+Scenario: Login with unmatched username and password        &amp#27;[90m# src/test/resources/Features/Login.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mInput invalid username&amp#27;[0m                              &amp#27;[90m# StepDef.LoginStep.inputInvalidUsername()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mInput invalid password&amp#27;[0m                                &amp#27;[90m# StepDef.LoginStep.inputInvalidPassword()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mClick login button&amp#27;[0m                                   &amp#27;[90m# StepDef.LoginStep.clickLoginButton()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mShow error message username and password not matched&amp#27;[0m &amp#27;[90m# StepDef.LoginStep.showErrorMessageUsernameAndPasswordNotMatched()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 114.0.5735.90 (386bc09e8f4f2e025eddae123f36f6263096ae49-refs/branch-heads/5735@{#1052}) on port 22744
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jul 22, 2023 9:09:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 114, so returning the closest version found: 110
+]]></system-err>
+  </testcase>
+</testsuite>

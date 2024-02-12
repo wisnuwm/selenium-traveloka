@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: CucumberTestRunner
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 212.294 s - in CucumberTestRunner
+Dashboard products.As valid user i was able to Filter the products #1  Time elapsed: 25.141 s
+Dashboard products.As valid user i was able to Filter the products #2  Time elapsed: 19.452 s
+Dashboard products.As valid user i was able to Filter the products #3  Time elapsed: 18.485 s
+Dashboard products.As valid user i was able to Filter the products #4  Time elapsed: 18.268 s
+Dashboard products.The default filter value was A to Z #1  Time elapsed: 19.379 s
+Dashboard products.The default filter value was A to Z #2  Time elapsed: 19.563 s
+Dashboard products.The default filter value was A to Z #3  Time elapsed: 20.175 s
+Dashboard products.The default filter value was A to Z #4  Time elapsed: 19.909 s
+Login to saucedemo.Login valid to saucedemo  Time elapsed: 16.981 s
+Login to saucedemo.Login with valid account  Time elapsed: 17.253 s
+Login to saucedemo.Login with unmatched username and password  Time elapsed: 15.239 s
