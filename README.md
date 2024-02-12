@@ -6,11 +6,6 @@ Test automation using Selenium with Java programming language + Cucumber.
 
 To install this project on your locally, you need to clone repository following this script :
 
-```shell
-#git clone https://gitlab.com/telecats/manual-transcription-tool.git
-#cd manual-transcription-tool/mtt-automation
-```
-
 ## Requirement
 
 You will need this tools :
